@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="./jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./jquery.validate.js"></script>
+<script type="text/javascript" src="./myscript.js"></script>
+<style>
+.error {
+    border: solid 2px #FF0000;  
+}
+.good {
+    border: solid 2px #00B637;  
+}
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <td>Imię: </td>
+    <td> <input id="imie" type="text"></input></td>    
+  </tr>
+  <tr>
+    <td>Nazwisko: </td>
+    <td><input id="nazwisko" type="text"></input></td> 
+  </tr>
+  <tr>
+    <td>Email: </td>
+    <td><input id="email" type="text"></input></td> 
+  </tr>
+  <tr>
+    <td>Hasło: </td>
+    <td><input id="haslo" type="password"></input> <div id="entropia"></div></td> 
+  </tr>
+   <tr>
+    <td>Kod pocztowy: </td>
+    <td><input id="kodPocztowy" type="text"></input><div id="miasto"></div></td> 
+  </tr>
+  <tr>
+    <td><input type="submit" value="Potwierdź" id="submit"></td>
+    <td></td> 
+  </tr>
+</table>
+</html>
